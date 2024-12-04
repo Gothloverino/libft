@@ -1,10 +1,10 @@
-       #include <string.h>
-       #include <stdlib.h>
+      #include "libft.h"
 
-       char *ft_strdup(const char *s) {
-           char *dup = (char *)malloc(strlen(s) + 1);
+       char *ft_strdup(const char *s) 
+       {
+           char *dup = (char *)malloc(ft_strlen(s) + 1);
            if (dup != NULL) {
-               strcpy(dup, s);
+               ft_strlcpy(dup, s, ft_strlen(s) + 1);
            }
            return dup;
        }

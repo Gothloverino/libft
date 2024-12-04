@@ -6,11 +6,11 @@
 /*   By: asignoro <asignoro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 10:57:07 by asignoro          #+#    #+#             */
-/*   Updated: 2024/11/26 11:55:47 by asignoro         ###   ########.fr       */
+/*   Updated: 2024/12/03 14:53:59 by asignoro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-       #include <string.h>
+       #include "libft.h"
 
        void *ft_memcpy(void *dest, const void *src, size_t n)
        {

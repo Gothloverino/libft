@@ -1,11 +1,11 @@
-       #include <stdlib.h>
-       #include <string.h>
+#include "libft.h"
 
        void *ft_calloc(size_t nmemb, size_t size) 
         {
-           void *ptr = malloc(nmemb * size);
+           void *ptr;
+           ptr = malloc(nmemb * size);
            if (ptr) {
-               memset(ptr, 0, nmemb * size);
+               ft_memset(ptr, 0, nmemb * size);
            }
                return ptr;
         }

@@ -1,4 +1,4 @@
-    #include <stdlib.h>
+    #include "libft.h"
     
     int ft_atoi(const char *nptr) {
         int result = 0;
