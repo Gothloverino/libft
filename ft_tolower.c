@@ -6,14 +6,13 @@
 /*   By: asignoro <asignoro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 14:29:32 by asignoro          #+#    #+#             */
-/*   Updated: 2024/12/03 14:38:32 by asignoro         ###   ########.fr       */
+/*   Updated: 2024/12/05 14:07:36 by asignoro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-    if (c >= 'A' && c <= 'Z')
-        c += 32;
-
-    return (c);
+	if (c >= 'A' && c <= 'Z')
+		c += 32;
+	return (c);
 }

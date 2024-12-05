@@ -27,6 +27,8 @@ ft_strrchr.c \
 ft_strlcpy.c \
 ft_split.c	 \
 ft_itoa.c	 \
+ft_strtrim.c \
+ft_strmapi.c \
 
 NAME = libft.a
 OBJS = $(SRCS:.c=.o)

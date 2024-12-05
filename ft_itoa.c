@@ -6,7 +6,7 @@
 /*   By: asignoro <asignoro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 16:14:10 by asignoro          #+#    #+#             */
-/*   Updated: 2024/12/04 16:16:07 by asignoro         ###   ########.fr       */
+/*   Updated: 2024/12/05 10:25:09 by asignoro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,8 +94,3 @@ char	*ft_itoa(int n)
 		negative(len, ptr, &n);
 	return (ptr);
 }
-
-/* int main()
-{
-	ft_itoa(10);
-} */

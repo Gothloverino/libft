@@ -6,18 +6,18 @@
 /*   By: asignoro <asignoro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 10:57:19 by asignoro          #+#    #+#             */
-/*   Updated: 2024/11/26 11:12:38 by asignoro         ###   ########.fr       */
+/*   Updated: 2024/12/05 14:16:37 by asignoro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strlen(const char *s)
+int	ft_strlen(const char *s)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while ( s[i] != '\0')
-    {
-        i++;
-    }
-        return (i);
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
 }

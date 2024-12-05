@@ -6,18 +6,18 @@
 /*   By: asignoro <asignoro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 10:45:58 by asignoro          #+#    #+#             */
-/*   Updated: 2024/12/03 15:06:42 by asignoro         ###   ########.fr       */
+/*   Updated: 2024/12/05 10:20:05 by asignoro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
-    if (c >= 0 && c <= 127)
-    {
-        return (1);
-    }   
-    else
-    {
-        return (0);
-    } 
+	if (c >= 0 && c <= 127)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
