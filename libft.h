@@ -6,7 +6,7 @@
 /*   By: asignoro <asignoro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 10:45:21 by asignoro          #+#    #+#             */
-/*   Updated: 2024/12/05 14:45:35 by asignoro         ###   ########.fr       */
+/*   Updated: 2024/12/07 10:32:36 by asignoro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,5 +47,7 @@ void	*ft_memchr(const void *s, int c, size_t n);
 char	*ft_itoa(int n);
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void    ft_striteri(char *s, void (*f)(unsigned int, char*));
+void    ft_putnbr_fd(int n, int fd);
 
 #endif
